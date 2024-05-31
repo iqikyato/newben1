@@ -1,0 +1,16 @@
+form (3)
+-login.php
+-registration.php
+-home.php
+file untuk membuka koneksi ke database
+-connection php
+-setRegistrationToDatabase.php
+---username
+---password
+---email
+---gender
+---role
+---hobby
+--getTblRegistrationFromDatabase.php
+---column username
+---column password

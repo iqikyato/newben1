@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Registration.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Kyato Official</title>
+    <link rel="icon" href="puple.png">
+</head>
+
+<body>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="Kyato5.mp4" class="Kyato-bg">
+            <source src="Kyato5.mp4">
+        </video>
+
+        <center>
+            <div class="container">
+                <img src="Kyato.png" width="200" height="99" alt="puple" class="center">
+                <h1>Register</h1>
+                <form action="Registration.php" method="POST">
+                    <div class="form-group">
+                        <label for="Email"></label>
+                        <input type="text" id="gmail" name="gmail" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Username"></label>
+                        <input type="text" id="Username" name="username" placeholder="Enter Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Password"></label>
+                        <input type="password" minlength="8" maxlength="18" id="password" name="password"
+                            placeholder="Enter Password" required>
+                    </div>
+                    <p>I Have read and agree to the <a href="AccTerms.php">KYATO Account Terms of Service</a>
+                        <a href="AccTerms.php">KYATO Account Privacy Policy</a>
+                    </p>
+                    <Select name="gender">
+                    <option type="radio" name="gender" value="male" checked> Male </option>
+                    <option type="radio" name="gender" value="female"> Female </option>
+                    </Select>
+                    <br>
+                    <input type="checkbox" name="hobby" value="hobby"> Sleep
+                    <input type="checkbox" name="hobby" value="hobby"> Drawing
+                    <input type="checkbox" name="hobby" value="hobby"> Playing
+                    <button type="submit">Register</button>
+                </form>
+                <a href="home.php">Home</a>
+                <a href="Login.html">Login</a>
+            </div>
+            <footer class="footer">
+                <div class="footer-content">
+                    <p>Copyright &copy; KYATO Company. ALL RIGHT RESERVED.</p>
+                </div>
+            </footer>
+    </div>
+</body>
+
+</html>
